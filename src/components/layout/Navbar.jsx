@@ -1,4 +1,4 @@
-import { navbarItems } from "../../data/Products";
+import { navbarItems } from "../../data/products";
 import { AnimatePresence, hex, motion } from "framer-motion";
 import { navListVariants, navItemVariants } from "../../animations/heroVariants"
 
