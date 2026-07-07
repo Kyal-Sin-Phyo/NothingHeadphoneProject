@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+:root {
+    /* === Background === */
+    --bg: #131313;
+    --surface: #080808;
+
+    /* === Text === */
+    --text: #FFFFFF;
+    --text-muted: #BFC6D0;
+    --text-inverse: #080808;
+
+    /* === Border === */
+    --border: #6B6B6B;
+
+    /* === Glass === */
+    --glass: inset 0.75px 0.5px #FFF5, inset -0.75px -0.5px #000;
+
+    /* === Gradient === */
+    --gradient: linear-gradient(
+                #3F4041 0%,
+                #BFC6D0 100%
+            );
+
+
+    /* === Brand === */
+    --danger: #D71921;
+}
+
+.light {
+    /* === Background === */
+    --bg: #E9ECEF;
+    --surface: #FFFFFF;
+
+    /* === Text === */
+    --text: #080808;
+    --text-muted: #1b1c1c;
+    --text-inverse: #FFFFFF;
+
+    /* === Border === */
+    --border: #AFAFAF;
+
+    /* === Glass === */
+    --glass: inset 0.75px 0.75px #FFF, inset -0.75px -0.75px #0005;
+
+    /* === Gradient === */
+    --gradient: linear-gradient(
+                #F5F5F7 0%,
+                #6B7280 100%
+            );
+
+    /* === Brand === */
+    --danger: #D71921;
+}
+
+/* Color And Typography */
+@theme {
+    
+    --color-bg: var(--bg);
+    --color-surface: var(--surface);
+
+    --color-text: var(--text);
+    --color-text-muted: var(--text-muted);
+    --color-text-inverse: var(--text-inverse);
+
+    --color-border: var(--border);
+    --shadow-glass: var(--glass);
+    --background-image-gradient: var(--gradient);
+    --color-danger: var(--danger);
+
+    /* === Product Colors === */
+        /* Headphone (A) Color */
+        /* --color-headphone-a-black: #070707;
+        --color-headphone-a-white: #F5F5F7;
+        --color-headphone-a-yellow: #E2C11C;
+        --color-headphone-a-pink: #D8ADC0; */
+
+
+    /* === Fonts === */
+    --font-doto: 'Doto';
+    --font-jetbrains: 'JetBrainsMono';
+
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    appearance: none;
+    display: none;
+}
+
+/* === Chrome, Edge, Safari === */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* === Firefox === */
+html {
+    scrollbar-width: none;
+}
+
+/* === IE & Old Edge === */
+body {
+    -ms-overflow-style: none;
+}
+
+
+/* === Fonts === */
+@font-face {
+    font-family: 'Doto';
+    src: url('./../assets/fonts/Doto/Doto-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('./../assets/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
