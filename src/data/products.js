@@ -3,7 +3,7 @@
 import headphoneABlack from "./../assets/images/headphone-a/Headphone-a-black.webp";
 import headphoneAWhite from "./../assets/images/headphone-a/Headphone-a-white.webp";
 import headphoneAYellow from "./../assets/images/headphone-a/Headphone-a-yellow.webp";
-import headphoneAPink from "./../assets/images/headphone-a/Headphone-a-pink.webp";
+import headphoneAPink from "./../assets/images/headphone-a/Headphone-a-Pink.webp";
 
 // Icons
 import {
