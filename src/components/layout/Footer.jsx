@@ -1,7 +1,7 @@
 import SocialButton from "../ui/SocialButton";
 import { socials } from "../../data/Products";
-import ThemesToggleButton from "../ui/ThemesToggleButton";
-import { motion } from "motion/react";
+import ThemesToggleButton from "../ui/ThemeToggleButton";
+import { motion } from "framer-motion";
 
 const Footer = () => {
     return (

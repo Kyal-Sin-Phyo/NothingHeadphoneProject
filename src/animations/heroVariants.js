@@ -17,7 +17,7 @@ export const imageVariants = {
     })
 }
 
-export const containerVariant = {
+export const containerVariants = {
     enter: {
         opacity: 0,
     },
@@ -30,7 +30,7 @@ export const containerVariant = {
     },
 }
 
-export const contentVariant = {
+export const textVariants = {
     enter: {
         y: 50,
         opacity: 0,
@@ -46,3 +46,46 @@ export const contentVariant = {
     },
     
 }
+
+export const navListVariants = {
+    hidden: {
+        opacity: 0,
+        height: 0
+    },
+    visible: {
+        opacity: 1,
+        height: "auto",
+        transition: {
+            staggerChildren: 0.1,
+            ease: "linear"
+        },
+    },
+    exit: {
+        opacity: 0,
+        height: 0,
+        transition: {
+            staggerChildren: 0.1,
+            staggerDirection: -1,
+            when: "afterChildren",
+            ease: "linear",
+        }
+    }
+};
+
+export const navItemVariants = {
+    hidden: { opacity: 0, y: -20 },
+    visible: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 0.1,
+        },
+    },
+    exit: {
+        opacity: 0,
+        y: -15,
+        transition: {
+            duration: 0.1,
+        }
+    }
+};

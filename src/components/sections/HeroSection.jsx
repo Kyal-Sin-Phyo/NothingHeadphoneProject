@@ -1,12 +1,12 @@
-import { AnimatePresence, motion, scale } from 'motion/react';
+import { AnimatePresence, motion } from 'framer-motion';
 import ColorSection from "../ui/ColorSection";
 import GlassButton from '../ui/GlassButton';
 import BackgroundRings from '../ui/BackgroundRings';
 
 import {
     imageVariants,
-    containerVariant,
-    contentVariant,
+    containerVariants,
+    textVariants,
 } from '../../animations/heroVariants';
 import useProductCarousal from '../../hooks/useProductCarousal';
 
@@ -32,31 +32,31 @@ const HeroSection = ({ product }) => {
     return (
         <section className="flex md:flex-row flex-col w-full min-h-[calc(100dvh-4rem)] md:items-stretch items-center gap-5">
             <motion.div
-                variants={containerVariant}
+                variants={containerVariants}
                 initial="enter"
                 animate="center"
                 className="flex flex-col justify-center items-center md:items-start gap-7.5 md:gap-10 w-full h-auto"
             >
                 <motion.h1
-                    variants={contentVariant}
+                    variants={textVariants}
                     className="text-2xl md:text-3xl lg:text-5xl font-bold"
                 >
                         {product.name}
                 </motion.h1>
                 <motion.p
-                    variants={contentVariant}
+                    variants={textVariants}
                     className="text-text-muted text-center md:text-start text-sm leading-relaxed"
                 >
                     {product.description}
                 </motion.p>
                 <motion.span
-                    variants={contentVariant}
+                    variants={textVariants}
                     className="text-2xl md:text-3xl lg:text-5xl font-bold"
                 >
                     {product.pricing.symbol}{product.pricing.amount}
                 </motion.span>
 
-                <motion.div variants={contentVariant} className="w-fit h-fit">
+                <motion.div variants={textVariants} className="w-fit h-fit">
                     <ColorSection colors={colors} activeIndex={activeIndex} changeColor={select} />
                 </motion.div>
 

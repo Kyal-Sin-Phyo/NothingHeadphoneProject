@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { motion } from "motion/react";
-import ThemesToggleButton from "../ui/ThemesToggleButton";
+import { motion } from "framer-motion";
+import ThemesToggleButton from "../ui/ThemeToggleButton";
 import { MobileNavbar, LaptopNavbar} from "./Navbar";
 import {
     Menu
