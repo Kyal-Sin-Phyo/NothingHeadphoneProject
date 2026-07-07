@@ -1,4 +1,4 @@
-import { products } from "../data/Products";
+import { products } from "../data/products";
 import HeroSection from "../components/sections/HeroSection";
 
 const Home = () => {
