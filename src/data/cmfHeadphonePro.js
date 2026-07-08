@@ -2,7 +2,7 @@ import cmfHeadphoneProDarkGrey from "./../assets/images/cmf-headphone-pro/CMF_He
 import cmfHeadphoneProLightGreen from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Light-Green.webp";
 import cmfHeadphoneProLightGrey from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Light-Grey.webp";
 
-const headphone1 = {
+export const cmfHeadphonePro = {
     id: 2,
     name: "CMF Headphone Pro",
     description: "Designed for those who hear every detail. Rich sound, deep bass, and all-day comfort.",

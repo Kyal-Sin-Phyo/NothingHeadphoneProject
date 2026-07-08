@@ -1,5 +1,5 @@
 import SocialButton from "../ui/SocialButton";
-import { socials } from "../../data/Products";
+import { socials } from "./../../data/socialsMedia-Navbar";
 import ThemesToggleButton from "../ui/ThemeToggleButton";
 import { motion } from "framer-motion";
 

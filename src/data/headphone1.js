@@ -1,7 +1,7 @@
 import headphone1Black from "./../assets/images/headphone-1/Headphone1-black.webp";
 import headphone1White from "./../assets/images/headphone-1/Headphone1-white.webp";
 
-const headphone1 = {
+export const headphone1 = {
     id: 2,
     name: "Headphone (1)",
     description: "Immersive sound. Every detail. Crafted for powerful audio with intelligent noise cancellation.",
