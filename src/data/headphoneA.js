@@ -5,8 +5,7 @@ import headphoneAWhite from "./../assets/images/headphone-a/Headphone-a-white.we
 import headphoneAYellow from "./../assets/images/headphone-a/Headphone-a-yellow.webp";
 import headphoneAPink from "./../assets/images/headphone-a/Headphone-a-pink.webp";
 
-export const products = [
-    {
+export const headphoneA = {
         id: 1,
         name: "Headphone (A)",
         description: "Pure sound. Zero distractions. Precision-engineered audio with adaptive noise cancellation.",
@@ -44,4 +43,3 @@ export const products = [
             },
         ]
     }
-]
