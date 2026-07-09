@@ -1,6 +1,6 @@
 import cmfHeadphoneProDarkGrey from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Dark-Grey.webp";
 import cmfHeadphoneProLightGreen from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Light-Green.webp";
-import cmfHeadphoneProLightGrey from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Light-grey.webp";
+import cmfHeadphoneProLightGrey from "./../assets/images/cmf-headphone-pro/CMF_Headphone-Light-Grey.webp";
 
 export const cmfHeadphonePro = {
     id: 2,
