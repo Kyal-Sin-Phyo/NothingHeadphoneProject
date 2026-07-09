@@ -23,4 +23,4 @@ export const socials = [
     }
 ]
 
-export const navbarItems = ["Home", "Categories", "Blog", "Contact"];
+export const navbarItems = ["Home", "Products", "Blog", "Contact"];

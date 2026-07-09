@@ -67,7 +67,7 @@ const HeroSection = ({ product }) => {
                         duration: 0.5,
                         delay: 0.6,
                     }}
-                    className="flex justify-center md:justify-start items-center gap-3.75 w-full h-auto"
+                    className="flex justify-center md:justify-start items-center gap-3.75 w-full h-auto z-10"
                 >
                     <GlassButton
                         label="Buy Now"

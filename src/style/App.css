@@ -2,7 +2,7 @@
 
 :root {
     /* === Background === */
-    --bg: #131313;
+    --bg: #121212;
     --surface: #080808;
 
     /* === Text === */
@@ -11,7 +11,7 @@
     --text-inverse: #080808;
 
     /* === Border === */
-    --border: #6B6B6B;
+    --border: #2c2c2c;
 
     /* === Glass === */
     --glass: inset 0.75px 0.5px #FFF5, inset -0.75px -0.5px #000;

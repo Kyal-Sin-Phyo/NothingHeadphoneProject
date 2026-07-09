@@ -2,7 +2,6 @@ import { navbarItems } from "./../../data/socialsMedia-Navbar";
 import { AnimatePresence, hex, motion } from "framer-motion";
 import { navListVariants, navItemVariants } from "../../animations/heroVariants"
 
-
 export const MobileNavbar = ({ openNavbar }) => {
     return (
         <nav className="absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-10 shrink-0 w-full h-fit lg:hidden overflow-hidden text-lg font-jetbrains font-medium z-55 px-2.5">

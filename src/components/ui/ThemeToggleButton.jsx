@@ -14,7 +14,7 @@ const ThemesToggleButton = () => {
     const { theme, toggleTheme } = useTheme();
 
     return (
-        <button onClick={toggleTheme} className="shrink-0 relative flex justify-center items-center gap-1.25 w-23 h-9 text-base font-medium rounded-full outline-none bg-bg/10 backdrop-blur-xs border border-border/30 shadow-[0_1px_5px] shadow-text/30 cursor-pointer">
+        <button onClick={toggleTheme} className="shrink-0 relative flex justify-center items-center gap-1.25 w-23 h-9 text-base font-medium rounded-full outline-none bg-bg/10 backdrop-blur-xs shadow-[0_2px_5px] shadow-text/15 cursor-pointer">
             <AnimatePresence mode="wait">
                 {theme === "dark" ? 
                     (

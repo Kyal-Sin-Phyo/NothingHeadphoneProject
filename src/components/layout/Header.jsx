@@ -6,6 +6,7 @@ import {
     Menu
 } from "lucide-react";
 
+
 const Header = () => {
     const [openNavbar, setOpenNavbar] = useState(false);
     return (
@@ -34,8 +35,11 @@ const Header = () => {
                 </button>
 
             </div>
-
-            <MobileNavbar openNavbar={openNavbar} />
+            {
+                <MobileNavbar
+                    openNavbar={openNavbar}  
+                />
+            }
         </motion.header>
     )
 }
